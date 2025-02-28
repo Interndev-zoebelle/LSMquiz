@@ -74,7 +74,8 @@ function Header() {
             <Button
               className="py-5 bg-blue-400 flex items-center gap-2 font-semibold text-lg rounded-lg
             hover:bg-blue-500/90"
-              onClick={() => router.push("/sign-in")} //cleark
+              onClick={() => router.push("/sign-in")} //clerk
+              
             >
               {login}
               Login / Sign Up
